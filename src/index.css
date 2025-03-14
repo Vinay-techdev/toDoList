@@ -80,3 +80,41 @@ li {
     font-weight: 4rem;
     flex: 1;
 }
+
+@media (max-width:400px){
+    .to-do-list{
+        font-family: Arial, sans-serif;
+        text-align: center;
+        width: 350px;
+        border-radius: 5px;
+        box-shadow: 5px 0 15px rgba(0, 0, 0, 0.2);
+        padding: 5px 5px;
+    }
+
+    h1{
+        font-size: 2.5rem; 
+     }
+
+     input[type="text"]{
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    .add-button{
+        font-size: 1.1rem;
+    }
+
+    .delete-button{
+       font-size: 0.8rem;
+    }
+    
+    .move-button, .down-button{
+        font-size: 0.8rem;
+    }
+
+    li {
+        font-size: 1.7rem;
+        font-weight: 1.3rem;
+        padding: 10px;
+    }
+}
